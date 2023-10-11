@@ -1,8 +1,4 @@
-.home{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: white;
-    width: 95%;
-    margin: 0 auto 50px auto;
+.home {
+    width: 100%;
+
 }

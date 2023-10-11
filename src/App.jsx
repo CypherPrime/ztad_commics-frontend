@@ -2,14 +2,15 @@ import React from "react";
 import Home from "./pages/home/Homepage";
 
 import './styleapp.css';
+import Comicspage from "./pages/comics/Comicspage";
 
 function App(){
     return(
         
-            <>
-                <Home />
+            <div className="App">
+                <Comicspage  />
 
-            </>
+            </div>
     )
 }
 

@@ -1,12 +1,17 @@
-.item{
+.item {
     /* margin-right: 5px; */
-    width: 250px;
-    
+    /* width: 200px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
 }
 
-.item img{
+.item img {
     object-fit: cover;
     border: 2px solid grey;
-    width: 200px;
+    height: 250px;
+    width: 100%;
 
 }

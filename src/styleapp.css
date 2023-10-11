@@ -1,15 +1,24 @@
 .container {
     background-color: white;
-    
+
 }
 
-:root{
+:root {
     --colorblue: #1A458D;
     --colordarkblue: #011C31;
     --colorgrey: #F5F5F1;
-     
+
 }
 
-body{
+body {
     overflow-x: hidden;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 95%;
+    margin: 0 auto 50px auto;
 }

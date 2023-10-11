@@ -1,3 +1,4 @@
+import { Email, Facebook, Instagram, LinkedIn, Message, MessageOutlined, Twitter, WhatsApp } from "@mui/icons-material";
 import "./stylefooter.css";
 
 function Footer() {
@@ -13,10 +14,18 @@ function Footer() {
             <div className="socials">
                 <div className="text">Contact with us</div>
                 <div className="icons">
-                    <div className="socials-icon"></div>
-                    <div className="socials-icon"></div>
-                    <div className="socials-icon"></div>
-                    <div className="socials-icon"></div>
+                    <div className="socials-icon">
+                        <Facebook />
+                    </div>
+                    <div className="socials-icon">
+                        <Instagram />
+                    </div>
+                    <div className="socials-icon">
+                        <Twitter />
+                    </div>
+                    <div className="socials-icon">
+                        <LinkedIn />
+                          </div>
                 </div>
             </div>
         </div>
@@ -34,7 +43,7 @@ function Footer() {
             <div className="contactinfo">
                 <div className="socialmedia">
                     <div className="icon">
-                        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.Qql-Gidp9eC96jy2pAodGgHaHc%26pid%3DApi%26h%3D160&f=1&ipt=da8d958e150170fff0256b5310f1f60d815577050db62baf1a1b031d06337366&ipo=images" alt="" />
+                        <WhatsApp />
                     </div>
                     <div className="details">
                         Phone: +237 676 379 479 
@@ -42,7 +51,7 @@ function Footer() {
                 </div>
                 <div className="socialmedia">
                     <div className="icon">
-                        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.IpB5yPUkCFHOzlmM-O7ncAHaFW%26pid%3DApi%26h%3D160&f=1&ipt=c1a2697e8013c0be89f64f1047eae8ec92fd4bceb6eeac3ea68639eee283fd92&ipo=images" alt="" />
+                        <Email />
                     </div>
                     <div className="details">
                         Email: contact@zcu.org 
@@ -50,7 +59,7 @@ function Footer() {
                 </div>
                 <div className="socialmedia">
                     <div className="icon">
-                        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.SDiyliNqRqizJta8z20tMAHaHa%26pid%3DApi%26h%3D160&f=1&ipt=ac6911861c3af2a9474f6d7228ef80e6c6a852d0c97fa8667f461f7fbf0470c3&ipo=images" alt="" />
+                        <MessageOutlined />
                     </div>
                     <div className="details">
                         Leave a message 

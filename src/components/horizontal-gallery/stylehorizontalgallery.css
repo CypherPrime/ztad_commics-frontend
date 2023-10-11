@@ -1,6 +1,6 @@
 .horizontalgallery-sec {
-    /* background-color: var(--colorgrey); */
-    height: 60vh;
+    background-color: var(--colorgrey);
+    height: 400px;
     width: 100%;
     /* margin-bottom: 10px; */
 }
