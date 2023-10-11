@@ -1,0 +1,16 @@
+.gallery-section{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.gallery{
+    background-color: var(--colorgrey);
+    padding: 10px 50px;
+
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap;
+}
+

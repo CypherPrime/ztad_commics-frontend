@@ -1,0 +1,12 @@
+.item{
+    /* margin-right: 5px; */
+    width: 250px;
+    
+}
+
+.item img{
+    object-fit: cover;
+    border: 2px solid grey;
+    width: 200px;
+
+}

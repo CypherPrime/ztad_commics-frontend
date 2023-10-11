@@ -1,0 +1,15 @@
+.container {
+    background-color: white;
+    
+}
+
+:root{
+    --colorblue: #1A458D;
+    --colordarkblue: #011C31;
+    --colorgrey: #F5F5F1;
+     
+}
+
+body{
+    overflow-x: hidden;
+}

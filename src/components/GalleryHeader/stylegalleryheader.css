@@ -1,0 +1,19 @@
+.galleryName {
+   display: flex;
+   justify-content:center;
+   align-items: center;
+   flex-direction: column;
+   padding: 20px 0px;
+   background-color: white;
+
+   .name{
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--colordarkblue);
+   }
+
+   .descrip{  
+        color: var(--colorblue);
+        margin-top: 3px;
+   }
+}

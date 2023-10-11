@@ -1,0 +1,26 @@
+.carosel-sec {
+    width: 100%;
+    height: 300px;
+    /* background-color: rgb(174, 26, 26); */
+    border-top: 2px solid rgba(0, 0, 0, 0.088);
+    /* padding-top: 100px; */
+    border-bottom: 1px solid black;
+}
+
+.coroselimg {
+    /* height: 100%; */
+    height: 300px;
+    /* width: 200px; */
+    /* object-fit: cover; */
+    display: flex;
+    justify-content: center;
+    /* margin-right: 10px; */
+    /* object-fit: contain; */
+
+}
+
+.coroselimg img {
+    width: 100%;
+    /* width: auto; */
+    /* object-fit: contain; */
+}
