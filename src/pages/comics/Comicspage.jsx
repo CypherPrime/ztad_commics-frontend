@@ -1,6 +1,7 @@
 import Navbar from '../../components/navbar/Navbar'
 import ComicNavSection from "../../components/comicNavSection/ComicNavSection.jsx"
 import ComicGallery from "../../components/comicGallery/ComicGallery.jsx"
+import Footer from "../../components/footer/Footer.jsx"
 
 function Comicspage() {
   return (
@@ -8,6 +9,7 @@ function Comicspage() {
           <Navbar />
       <ComicNavSection />
       <ComicGallery />
+      <Footer />
 
     </div>
   )

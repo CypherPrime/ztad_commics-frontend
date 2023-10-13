@@ -11,7 +11,7 @@ function ComicNavSection() {
         </div>
       <div className="navsection">
         <div className="inputfield">
-        <input type="text" placeholder='Search Comic by name' />
+        <input type="text" placeholder='Search Comic by typing in its name' />
         
         </div>
         <div className="inputfield">

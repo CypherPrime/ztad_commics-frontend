@@ -1,12 +1,18 @@
 .ComicGallery-sect{
     display: flex;
     flex-direction: column;
+    // align-items: baseline;
     // background-color: var(--colorgrey);
-    margin: 0px 50px;
+    margin: 10px 50px;
+    margin-bottom: 50px;
 
+    .series-sec{
+        margin-top: 30px;
+
+        
     .seriesTitle{
         display: flex;
-        align-items: center;
+        align-items: baseline;
         height: 50px;
         background-color: white;
         border-bottom: 2px solid var(--colorgrey);
@@ -23,6 +29,13 @@
         .comicCreator{
             color: var(--colorblue);
             font-size: 20px;
+            // font-weight: bold;
         }
     }
+
+    .comicgallery{
+        margin-top: 15px;
+        
+    }
+}
 }
