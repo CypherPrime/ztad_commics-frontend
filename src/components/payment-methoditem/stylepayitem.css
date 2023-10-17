@@ -1,0 +1,33 @@
+.methoditem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #707070;
+    cursor: pointer;
+}
+
+.methoditem:hover {
+    .methodname {
+        color: var(--colorblue)
+    }
+}
+
+.methodimg {
+    width: 150px;
+    height: 100px;
+    /* background-color: black; */
+    border: 1px solid #707070;
+}
+
+.methodimg img {
+    object-fit: cover;
+}
+
+.methodname {
+    text-transform: capitalize;
+    margin-top: 5px;
+    /* font-size: ; */
+    color: #505050;
+}

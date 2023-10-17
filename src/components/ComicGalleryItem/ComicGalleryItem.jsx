@@ -1,7 +1,7 @@
 import { FavoriteBorder } from '@mui/icons-material'
 import "./stylecomicGalleryItem.scss"
 
-function ComicGalleryItem() {
+function ComicGalleryItem(props) {
     return (
         <div className="galleryItem">
             <div className="feavorIcon">
@@ -9,16 +9,17 @@ function ComicGalleryItem() {
             </div>
             <div className="comicinfo">
                 <div className="comicImg">
+                    <img src={ props.imgsrc } alt="" />
                 </div>
                 <div className="comicTitle">
-                        <span>Katongo - Robe</span>
+                        <span>{props.comictitle}</span>
                 </div>
                 
                 <div className="episodenum">
-                        <span>Episode 1</span>
+                    <span>{ props.epnum}</span>
                 </div>
                 <div className="episodetile">
-                    <span>reawarking of a new life</span>
+                    <span>{props.eptitle}</span>
                 </div>
             </div>
         </div>
