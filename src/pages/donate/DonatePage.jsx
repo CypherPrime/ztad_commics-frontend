@@ -4,6 +4,8 @@ import "./styledonatepage.css";
 import PaymentMethoditem from "../../components/payment-methoditem/PaymentMethoditem.jsx"
 import Footer from "../../components/footer/Footer";
 
+import "./images/momo.jpg"
+
 function DonatePage() {
   return (
       <div className="donatepage">
@@ -39,7 +41,7 @@ function DonatePage() {
                   <div className="text">Every small token would go a long way.</div>
                   <div className="bluetext">Choose a Deposit Method</div>
                   <div className="methodsgrid">
-                      <PaymentMethoditem name="MOMO"/>
+                      <PaymentMethoditem name="MOMO" imgsrc="./images/momo.jpg"/>
                       <PaymentMethoditem name="Orange Money"/>
                       <PaymentMethoditem name="Express Union"/>
                       <PaymentMethoditem name="Apple pay"/>

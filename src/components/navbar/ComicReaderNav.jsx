@@ -1,73 +1,48 @@
-import {Collections, AccountCircle, VolunteerActivism, LibraryBooks, Language, Settings, FavoriteBorder, Edit, Login} from '@mui/icons-material';
 
-import { Outlet, Link } from 'react-router-dom';
-
+import { AccountCircle, ArrowBack, Edit, FavoriteBorder, Language, Login, Settings, VolunteerActivism } from "@mui/icons-material";
 import "./stylenavbar.css"
+import { Link, Outlet } from "react-router-dom";
 
 
-function Navbar(){
+
+function ComicReaderNav(){
     return(
         <nav>
-                <div className="logosec">
-                    <div className="logo">
-                        <Link to="/"> <img  className="logoimg" src="" alt="" /> </Link>
-                    </div>
-                    <div className="name">
-                       <Link to="/">  Z<span className="colorname">C</span>U </Link>
-                    </div>
+            <div className="logosec">
+                <div className="logo">
+                    <Link to="/"><img  className="logoimg" src="" alt="" /> </Link>
                 </div>
-        
-            
+                <div className="name">
+                   <Link to="/"> Z<span className="colorname">C</span>U </Link>
+                </div>
+            </div>
             <div className="links">
-                        
                 <ul className="linksec">
+                    
+                    
                     <li className="navlinks">
-                        <Link to="/Comics">
-                            <div className="linkicon">
-                                <LibraryBooks />
-                            </div>
-                            <div className="linkname">
-                                <span> Comics </span>
-                            </div>
-                        </Link>
                         
+                            <div className="linkicon">
+                            <ArrowBack />
+                            </div>
+                            <div className="linkname">
+                            <span> Back </span>
+                            </div>
                         
-                    </li>
-                    <li className="navlinks">
-                        <Link to="/Gallery">
-                            <div className="linkicon">
-                                <Collections />
-                            </div>
-                            <div className="linkname">
-                                <span> Gallery </span>
-                            </div>
-                        </Link>                      
-                    </li>
-                    <li className="navlinks">
-                        <Link to="/Donate">
-                            <div className="linkicon">
-                            <VolunteerActivism />
-                            </div>
-                            <div className="linkname">
-                            <span> Donate </span>
-                            </div>
-                        </Link>
                     </li>
                     <li className="navlinks accountoption">
                         
                             <div className="linkicon">
-                            <AccountCircle />
+                                <AccountCircle />
                             </div>
                             <div className="linkname">
                             <span> Account </span>
 
                             <div className="options">
-                                <Link>
-                                    <div className="options_item">
-                                        <Login />
-                                        <span>Login</span>
-                                    </div>
-                                </Link>
+                                 <div className="options_item">
+                                    <Login />
+                                    <span>Login</span>
+                                </div>
                                 <div className="options_item">
                                     <AccountCircle />
                                     <span>Create an Account </span>
@@ -97,7 +72,6 @@ function Navbar(){
                                     <VolunteerActivism />
                                     <span>Partner with us</span>
                                 </div>
-                                
                             </div>
 
 
@@ -106,8 +80,9 @@ function Navbar(){
                     </li>
                 </ul>
             </div>
-            <Outlet/>
+            
+            <Outlet />
         </nav>
     )
 }
-export default Navbar;
+export default ComicReaderNav;

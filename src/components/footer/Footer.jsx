@@ -12,7 +12,7 @@ function Footer() {
                 <span>Zenara Comics Universe</span>
             </div>
             <div className="socials">
-                <div className="text">Contact with us</div>
+                <div className="contacttext">Contact with us</div>
                 <div className="icons">
                     <div className="socials-icon">
                         <Facebook />
