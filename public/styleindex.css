@@ -1,15 +1,17 @@
-*{
+* {
     margin: 0;
     padding: 0;
     border: border-box;
 }
 
-html{
+html {
     scroll-behavior: smooth;
+    width: 100%;
 }
 
-body{
-    background-color:#7D9399;
+body {
+    background-color: #7D9399;
+    width: 100%;
 }
 
 /* #root {

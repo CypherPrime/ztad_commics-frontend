@@ -31,6 +31,9 @@ nav {
                 width: 70px;
                 height: 70px;
                 border-radius: 50%;
+                text-decoration: none;
+                cursor: pointer;
+                margin: 10px 0;
                 /* z-index: 1; */
 
                 object-fit: cover;
@@ -41,6 +44,7 @@ nav {
             font-size: 50px;
             color: white;
             margin-left: 25px;
+            text-decoration: none;
 
             .colorname {
                 color: rgb(185, 83, 0);
@@ -63,10 +67,8 @@ nav {
                 flex-direction: column;
                 /* justify-content: center; */
                 align-items: center;
-                margin-right: 50px;
-
-
-
+                margin-right: 20px;
+                text-decoration: none;
 
                 .linkicon {
                     width: 25px;
@@ -85,19 +87,25 @@ nav {
             .navlinks:hover {
                 cursor: pointer;
                 /* padding: 1px 10px; */
-                /* color: black; */
                 transition: 600ms all ease;
                 /* font-weight: bold; */
+                color: var(--colordarkblue);
 
 
             }
 
-            .linkname:hover {
-                /* color: black; */
+            /* .navlinks:hover {
+                color: black;
                 transition: 600ms all ease;
-                /* font-weight: bold; */
-            }
+                font-weight: bold;
+            } */
 
+        }
+
+        .accountoption {
+            .accountburger {
+                display: none;
+            }
         }
 
     }
@@ -145,5 +153,164 @@ nav {
         /* padding: 10px; */
     }
 
+    .styleLink {
+        text-decoration: none;
+        color: white;
+    }
+}
 
+@media screen and (max-width: 844px) {
+    nav {
+        height: 80px;
+
+        .logosec {
+            .logo {
+                width: 90px;
+                height: 100%;
+
+                .logoimg {
+                    width: 50px;
+                    height: 50px;
+                }
+            }
+
+            .name {
+                font-size: 40px;
+            }
+        }
+
+        .links {
+            height: 100%;
+
+            .linksec {
+                .navlinks {
+                    margin-right: 13px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    text-decoration: none;
+
+                    .linkicon {
+                        width: 15px;
+                        height: 15px;
+                        margin-bottom: 3px;
+                        padding: 5px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+
+                        .NavIcon {
+                            font-size: 16px;
+
+                        }
+                    }
+                }
+
+                .options {
+                    padding: 15px;
+
+                }
+
+                .options_item {
+
+                    padding: 5px 50px 5px 5px;
+                    font-size: 14px;
+                    text-decoration: none;
+                }
+
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 604px) {
+    body {
+        padding: 0;
+        margin: 0;
+    }
+
+    nav {
+
+        width: 100%;
+        margin: 0;
+        height: 60px;
+        padding: 0;
+
+        .logosec {
+            .logo {
+                width: 70px;
+
+                .logoimg {
+                    width: 45px;
+                    height: 45px;
+                }
+            }
+
+            .name {
+                font-size: 35px;
+                margin-left: 15px;
+            }
+        }
+
+        .links {
+            .linksec {
+                .navlinks {
+                    margin-right: 8px;
+                    font-size: 14px;
+                }
+
+
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    nav {
+        height: 50px;
+
+        .logosec {
+            .logo {
+                border-right-width: 3px;
+
+            }
+
+            .name {
+                font-size: 30px;
+            }
+        }
+
+        .links {
+            border-right-width: 3px;
+
+            .linksec {
+                .navlinks {
+                    .linkicon {
+                        display: none;
+                        text-decoration: underline;
+
+
+                    }
+
+                }
+
+                .accountoption {
+                    .accountlink {
+                        display: none;
+                    }
+
+
+                    .accountburger {
+                        display: inline;
+                    }
+
+                }
+            }
+        }
+
+        .options {
+            margin-right: 0px;
+        }
+
+    }
 }

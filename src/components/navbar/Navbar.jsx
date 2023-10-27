@@ -1,4 +1,4 @@
-import {Collections, AccountCircle, VolunteerActivism, LibraryBooks, Language, Settings, FavoriteBorder, Edit, Login} from '@mui/icons-material';
+import {Collections, AccountCircle, VolunteerActivism, LibraryBooks, Language, Settings, FavoriteBorder, Edit, Login, Menu} from '@mui/icons-material';
 
 import { Outlet, Link } from 'react-router-dom';
 
@@ -10,11 +10,11 @@ function Navbar(){
         <nav>
                 <div className="logosec">
                     <div className="logo">
-                        <Link to="/"> <img  className="logoimg" src="" alt="" /> </Link>
+                        <Link className="logoimg" to="/"> <img   src="" alt="" /> </Link>
                     </div>
-                    <div className="name">
-                       <Link to="/">  Z<span className="colorname">C</span>U </Link>
-                    </div>
+                    
+                    <Link className="name"  to="/">  Z<span className="colorname">C</span>U </Link>
+                    
                 </div>
         
             
@@ -22,9 +22,9 @@ function Navbar(){
                         
                 <ul className="linksec">
                     <li className="navlinks">
-                        <Link to="/Comics">
+                        <Link className="navlinks" to="/Comics">
                             <div className="linkicon">
-                                <LibraryBooks />
+                                <LibraryBooks className='NavIcon' />
                             </div>
                             <div className="linkname">
                                 <span> Comics </span>
@@ -34,9 +34,9 @@ function Navbar(){
                         
                     </li>
                     <li className="navlinks">
-                        <Link to="/Gallery">
+                        <Link className="navlinks" to="/Gallery">
                             <div className="linkicon">
-                                <Collections />
+                                <Collections className='NavIcon' />
                             </div>
                             <div className="linkname">
                                 <span> Gallery </span>
@@ -44,9 +44,9 @@ function Navbar(){
                         </Link>                      
                     </li>
                     <li className="navlinks">
-                        <Link to="/Donate">
+                        <Link className="navlinks"  to="/Donate">
                             <div className="linkicon">
-                            <VolunteerActivism />
+                            <VolunteerActivism className='NavIcon' />
                             </div>
                             <div className="linkname">
                             <span> Donate </span>
@@ -56,13 +56,15 @@ function Navbar(){
                     <li className="navlinks accountoption">
                         
                             <div className="linkicon">
-                            <AccountCircle />
+                            <AccountCircle className='NavIcon' />
                             </div>
                             <div className="linkname">
-                            <span> Account </span>
+                            <span className='accountlink'> Account </span>
+                            <span className='accountburger'> <Menu /> </span>
+
 
                             <div className="options">
-                                <Link>
+                                <Link className='styleLink'>
                                     <div className="options_item">
                                         <Login />
                                         <span>Login</span>
