@@ -5,5 +5,30 @@
     flex-direction: column;
     /* align-items: center; */
     justify-content: center;
+    object-fit: fill;
 
+}
+
+@media screen and (max-width: 844px) {
+    .displaysec {
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .displaysec {
+        height: 220px;
+    }
+}
+
+@media screen and (max-width: 672px) {
+    .displaysec {
+        height: 180px;
+    }
+}
+
+@media screen and (max-width: 604px) {
+    .displaysec {
+        height: 150px;
+    }
 }

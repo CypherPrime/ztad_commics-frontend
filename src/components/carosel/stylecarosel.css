@@ -24,3 +24,47 @@
     /* width: auto; */
     /* object-fit: contain; */
 }
+
+@media screen and (max-width:844px) {
+    .carosel-sec {
+        height: 250px;
+
+    }
+
+    .coroselimg {
+        height: 250px;
+    }
+}
+
+@media screen and (max-width:726px) {
+    .carosel-sec {
+        height: 200px;
+
+    }
+
+    .coroselimg {
+        height: 200px;
+    }
+}
+
+@media screen and (max-width:604px) {
+    .carosel-sec {
+        height: 150px;
+
+    }
+
+    .coroselimg {
+        height: 150px;
+    }
+}
+
+@media screen and (max-width:368px) {
+    .carosel-sec {
+        height: 140px;
+
+    }
+
+    .coroselimg {
+        height: 140px;
+    }
+}

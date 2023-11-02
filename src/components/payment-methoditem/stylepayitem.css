@@ -28,6 +28,54 @@
 .methodname {
     text-transform: capitalize;
     margin-top: 5px;
+    font-size: 16px;
     /* font-size: ; */
     color: #505050;
+}
+
+@media screen and (max-width: 844px) {
+    .methoditem {
+        padding: 15px;
+    }
+
+    .methodimg {
+        width: 120px;
+        height: 90px;
+        border-top-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+
+    .methodname {
+        font-size: 14px;
+        margin-top: 3px;
+    }
+}
+@media screen and (max-width: 664px) {
+    .methoditem {
+        padding: 10px;
+    }
+
+    .methodimg {
+        width: 100px;
+        height: 80px;
+    }
+
+    .methodname {
+        font-size: 14px;
+        margin-top: 2px;
+    }
+}
+@media screen and (max-width: 527px) {
+    .methoditem{
+        padding: 8px;
+    }
+
+    .methodimg{
+        width: 90px;
+        height: 70px;
+    }
+
+    .methodname{
+        font-size: 12px;
+    }
 }

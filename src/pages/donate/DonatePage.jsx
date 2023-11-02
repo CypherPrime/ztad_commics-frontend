@@ -1,18 +1,15 @@
+import "./styledonatepage.css";
 import { Title } from "@mui/icons-material";
 import Navbar from "../../components/navbar/Navbar";
-import "./styledonatepage.css";
 import PaymentMethoditem from "../../components/payment-methoditem/PaymentMethoditem.jsx"
 import Footer from "../../components/footer/Footer";
 
-import "./images/momo.jpg"
+import mtnmomo from "./images/momo.jpg"
 
 function DonatePage() {
   return (
       <div className="donatepage">
           <Navbar />
-          
-
-
 
           <div className="section">
               <div className="heading">Be the Pillar to our Success / Join our dream</div>
@@ -42,7 +39,7 @@ function DonatePage() {
                   <div className="bluetext">Choose a Deposit Method</div>
                   <div className="methodsgrid">
                       <PaymentMethoditem name="MOMO" imgsrc="./images/momo.jpg"/>
-                      <PaymentMethoditem name="Orange Money"/>
+                      <PaymentMethoditem name="Orange Money" imgsrc="./images/ap.png" />
                       <PaymentMethoditem name="Express Union"/>
                       <PaymentMethoditem name="Apple pay"/>
                       <PaymentMethoditem name="Google pay"/>

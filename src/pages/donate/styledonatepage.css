@@ -50,13 +50,7 @@
     font-weight: bold;
 }
 
-/* .border_bottom {
-    border-bottom: 1px solid #707070;
-} */
-
-
 .section_heading {
-    margin-bottom: 20px;
 
     /* width: 20%; */
 
@@ -64,14 +58,15 @@
     padding: 0px 30px;
     font-weight: bold;
     font-size: 23px;
-    margin-top: 20px;
+    margin: 20px 0;
     border-bottom: 1px solid var(--colorblue);
 }
 
 .info {
     width: 75%;
-    padding: 10px 0;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+    /* padding: px 0; */
+    /* margin-bottom: 10px; */
 }
 
 .redactionbtn {
@@ -96,6 +91,7 @@
 .paymentmethod {
     width: 80%;
     padding: 20px;
+    margin-bottom: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -117,6 +113,7 @@
 }
 
 .materialDetail {
+    gap: 10px;
     display: flex;
     width: 80%;
     justify-content: space-between;
@@ -126,16 +123,17 @@
 .leftdetails,
 .rightdetails {
     width: 43%;
-    height: 300px;
+    min-height: 300px;
     border: 1px solid #707070;
     display: flex;
     flex-direction: column;
     padding: 10px 30px;
+
 }
 
 .lefttitle,
 .righttitle {
-    height: 40px;
+    min-height: 40px;
     padding: 10px 0;
     border-bottom: 1px solid #707070;
     margin-bottom: 20px;
@@ -146,12 +144,11 @@
     font-size: 23px;
     font-weight: bold;
 
+
 }
 
 table {
     width: 100%;
-
-
 }
 
 td {
@@ -160,8 +157,146 @@ td {
 
 .greyed {
     color: #505050;
+    font-weight: bold;
 }
 
 .addressinfo p {
     margin-left: 30px;
+}
+
+
+
+@media screen and (max-width: 844px) {
+    .heading {
+        font-size: 28px;
+        padding: 16px 0;
+    }
+
+    .section_heading {
+        font-size: 20px;
+        margin: 15px 0;
+    }
+
+    .text {
+        font-size: 16px;
+    }
+
+    .paymentmethod {
+        padding: 16px;
+
+    }
+
+    .methodsgrid {
+        gap: 25px;
+    }
+
+    .bluetext {
+        font-size: 15px;
+    }
+
+
+}
+
+@media screen and (max-width: 736px) {
+    .heading {
+        font-size: 25px;
+        padding: 12px 0;
+    }
+
+    .text {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 664px) {
+    .materialDetail {
+        margin-bottom: 10px;
+        width: 85%;
+    }
+
+    .righttitle {
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    .lefttitle {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 569px) {
+
+    .leftdetails,
+    .rightdetails {
+        font-size: 15px;
+    }
+
+    .leftdetails {
+        line-height: 16px;
+    }
+
+}
+
+@media screen and (max-width:552px) {
+    .paymentmethod {
+        padding: 10px;
+    }
+
+    .methodsgrid {
+        gap: 15px
+    }
+
+    .heading {
+        font-size: 20px;
+        padding: 10px 0;
+    }
+
+    .text {
+        font-size: 14px;
+    }
+
+    .section_heading {
+        font-size: 16px;
+        padding: 0px 10px;
+        margin: 5px 0;
+    }
+
+    .redactionbtn button {
+        padding: 3px 10px;
+        margin-top: 10px;
+        font-size: 12px;
+    }
+
+    .bluetext {
+        font-size: 14px;
+    }
+
+    .leftdetails,
+    .rightdetails {
+        padding: 15px 10px;
+        font-size: 14px;
+        min-height: 200px;
+    }
+
+    .lefttitle,
+    .righttitle {
+        margin-bottom: 10px;
+    }
+
+    td {
+        padding: 1px;
+    }
+
+
+}
+
+@media screen and (max-width: 527px) {
+    .methodsgrid {
+        gap: 9px;
+    }
+
+    .lefttitle {
+        padding: 5px 0;
+        min-height: 25px;
+    }
 }

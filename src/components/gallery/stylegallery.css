@@ -1,16 +1,34 @@
-.gallery-section{
+.gallery-section {
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 
 
-.gallery{
+.gallery {
     background-color: var(--colorgrey);
-    padding: 10px 50px;
+    padding: 10px 30px;
 
-    display: flex; 
+    display: flex;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+@media screen and (max-width: 571px) {
+    .gallery {
+        padding: 8px 20px;
+    }
+}
+
+@media screen and (max-width: 423px) {
+    .gallery {
+        padding: 8px 12px;
+    }
+}
+@media screen and (max-width: 393px) {
+    .gallery {
+        padding: 5px;
+    }
 }
 

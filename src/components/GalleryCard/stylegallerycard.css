@@ -12,8 +12,8 @@
     padding: 20px;
 
     .gallery-img {
-        width: 75%;
-        height: 200px;
+        width: 90%;
+        height: 220px;
         background-color: black;
         margin-bottom: 10px;
         object-fit: cover;
@@ -24,6 +24,7 @@
         font-size: 20px;
         font-weight: bold;
         color: var(--colordarkblue);
+        line-height: 20px;
 
         width: 100%;
         border-bottom: 2px solid rgba(0, 0, 0, 0.129);
@@ -34,6 +35,7 @@
         color: var(--colorblue);
         margin-top: 5px;
         text-align: center;
+        line-height: 20px;
     }
 
 
@@ -50,4 +52,124 @@
 .gallery-img img {
     height: inherit;
     width: 100%;
+}
+
+@media screen and (max-width:915px) {
+    .gallery-card {
+        width: 170px;
+        padding: 15px;
+        margin: 10px;
+
+        .gallery-img {
+            height: 200px;
+            margin-bottom: 5px;
+        }
+
+        .imageTitle {
+            font-size: 18px;
+            line-height: 19px;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.129);
+        }
+
+        .imageDescrip {
+            font-size: 14px;
+            line-height: 16px;
+        }
+    }
+}
+
+@media screen and (max-width:844px) {
+    .gallery-card {
+        width: 150px;
+        padding: 15px;
+        margin: 8px;
+
+        .gallery-img {
+            height: 190px;
+            margin-bottom: 5px;
+        }
+
+        .imageTitle {
+            font-size: 18px;
+            line-height: 19px;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.129);
+        }
+
+        .imageDescrip {
+            font-size: 14px;
+            line-height: 16px;
+        }
+    }
+}
+
+@media screen and (max-width:693px) {
+    .gallery-card {
+        width: 133px;
+        padding: 10px;
+        margin: 5px 10px;
+
+        .gallery-img {
+            height: 150px;
+            margin-bottom: 3px;
+        }
+
+        .imageTitle {
+            font-size: 16px;
+            line-height: 17px;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.129);
+        }
+
+        .imageDescrip {
+            font-size: 12px;
+            line-height: 12px;
+        }
+    }
+}
+
+@media screen and (max-width:585px) {
+    .gallery-card {
+        width: 100px;
+        padding: 5px;
+        margin: 5px 8px;
+
+        .gallery-img {
+            height: 120px;
+            margin-bottom: 3px;
+        }
+
+        .imageTitle {
+            font-size: 14px;
+            line-height: 15px;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.129);
+        }
+
+        .imageDescrip {
+            font-size: 12px;
+            line-height: 12px;
+        }
+    }
+}
+
+@media screen and (max-width:393px) {
+    .gallery-card {
+        width: 100px;
+        padding: 5px;
+        margin: 5px;
+
+        .gallery-img {
+            height: 120px;
+            margin-bottom: 3px;
+        }
+
+        .imageTitle {
+            font-size: 14px;
+            line-height: 15px;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.129);
+        }
+
+        .imageDescrip {
+            font-size: 12px;
+            line-height: 12px;
+        }
+    }
 }

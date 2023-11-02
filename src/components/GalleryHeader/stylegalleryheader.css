@@ -17,5 +17,40 @@
    .descrip {
       color: var(--colorblue);
       margin-top: 3px;
+      font-size: 16px;
    }
+}
+
+@media screen and (max-width: 844px) {
+   .galleryName {
+      height: 40px;
+      padding: 15px 0;
+
+      .name {
+         font-size: 25px;
+      }
+
+      .descrip {
+
+         font-size: 15px;
+      }
+   }
+}
+
+@media screen and (max-width: 602px) {
+   .galleryName {
+      height: 20px;
+      padding: 20px 0;
+
+      .name {
+         font-size: 20px;
+      }
+
+      .descrip {
+         font-size: 14px;
+         margin-top: 0px;
+      }
+   }
+
+
 }

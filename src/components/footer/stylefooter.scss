@@ -189,28 +189,13 @@
         }
     }
 }
-@media screen and (max-width: 844px) {
-    .footer-sec {
-        .left {
-            // padding-right: 10px;
-
-            .compname {
-                // font-size: 14px;
-
-            }
-        }
-    }
-}
 
 
-@media screen and (max-width: 737px){
+
+@media screen and (max-width:737px) {
     .footerstyle_one{
         display: none;
     }
-    
-}
-
-@media screen and (max-width:736px) {
     .footerstyle_two{
     // padding: 20px;
     width: 100%;
@@ -278,10 +263,7 @@
 
         h2{
         color: rgb(255, 115, 0)}
-    }
-
-   
-    
+    }   
     }
 }
 
@@ -315,7 +297,6 @@
 
 @media screen and (max-width: 429px){
     .footerstyle_two{
-
         .aboutus2{
             display: none;
         }
